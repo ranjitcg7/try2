@@ -5,7 +5,7 @@ st.title('This is HOME')
 st.button('Hit me')
 
 if st.button("Home"):
-    st.switch_page("app.py")
+    st.switch_page("streamlit_app.py")
 if st.button("Page 1"):
     st.switch_page("pages/page_1.py")
 if st.button("Page 2"):
